@@ -2,3 +2,66 @@
 {
     box-sizing: border-box;
 }
+
+.wrapper
+{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+nav
+{
+    margin: 0 auto;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 6vh;
+    padding-left: 0.6vh;
+    padding-right: 0.3vh;
+    
+}
+
+header
+{
+    background-image: url(../images/start-screen-background.jpg);
+}
+
+header h1
+{
+    font-size: calc(0.4rem + 2.9vh);
+    margin: 0;
+    color: gold;
+}
+header p
+{
+    font-size: calc(0.4rem + 1vh);
+    margin: 0;
+    padding-top: 0.5vh;
+    padding-left: 0.5vh;
+    color: white;
+}
+
+header ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 37%;
+    margin: 0;
+    padding-left: 0vh;
+}
+
+header li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: calc(0.4rem + 0.95vh);
+}
+
+
+.startScreen
+{
+    background-image: url(../images/start-screen-background.jpg);
+}

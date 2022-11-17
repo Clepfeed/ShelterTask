@@ -15,16 +15,15 @@ nav
     width: 95%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding-top: 6vh;
-    padding-left: 0.6vh;
-    padding-right: 0.3vh;
-    
+    align-items: center;  
 }
 
 header
 {
-    background-image: url(../images/start-screen-background.jpg);
+    padding-top: 6vh;
+    padding-left: 0.6vh;
+    padding-right: 0.3vh;
+    background-image: url("../images/start-screen-gradient-background.jpg"), url(../images/start-screen-background.jpg);
 }
 
 header h1
@@ -33,7 +32,13 @@ header h1
     margin: 0;
     color: gold;
 }
-header p
+header h2
+{
+    font-size: calc(0.4rem + 2.9vh);
+    margin: 0;
+    color: white;
+}
+nav p
 {
     font-size: calc(0.4rem + 1vh);
     margin: 0;
@@ -60,8 +65,45 @@ header li a
     font-size: calc(0.4rem + 0.95vh);
 }
 
-
-.startScreen
+article
 {
-    background-image: url(../images/start-screen-background.jpg);
+    background-image: url(../images/start-screen-puppy.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 88vh 19vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 81.5vh;
+    padding: 1vh 0 3vh 3vh;
+}
+.text
+{
+    height: 33vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 1vh;
+}
+article p 
+{
+    width: 47vh;
+    margin: 0;
+    color: white;
+    font-size: calc(0.4rem + 1vh);
+}
+article h2
+{
+    margin: 0;
+    width: 35vh;
+    font-size: calc(1.2rem + 2.9vh);
+}
+article button
+{
+    width: 21vh;
+    padding-top: 1.6vh;
+    padding-bottom: 1.6vh;
+    border-radius: 30px;
+    border: none;
+    font-size: calc(0.6rem + 1vh);
 }

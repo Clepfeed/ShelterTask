@@ -73,12 +73,13 @@ article
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 81.5vh;
-    padding: 1vh 0 3vh 3vh;
+    /* height: 81.5vh; */
+    height: 84.5vh;
+    padding: 0vh 0 2vh 3vh;
 }
 .text
 {
-    height: 33vh;
+    height: 34vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -100,25 +101,54 @@ article h2
 article button
 {
     width: 21vh;
-    padding-top: 1.6vh;
-    padding-bottom: 1.6vh;
     border-radius: 30px;
+    padding: 1.6vh 1vh 1.6vh 1vh;
     border: none;
     font-size: calc(0.6rem + 1vh);
 }
 
 main
 {
-    height: 40vh;
+    height: 62.5vh;
+    width: 66%;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding-bottom: 1.5vh;
 }
 
 .mainText
 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 50%;
+    height: 42vh;
+    padding-top: 1vh;
+}
+
+.mainText h3
+{
+    font-size: calc(1rem + 2vh);
+    width: 80%;
+    margin: 0;
+}
+
+.mainText p
+{
+    font-size: calc(0.4rem + 1vh);
+    margin: 0;
+    line-height: 2.5vh;
+    height: 40%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.mainText .first-p-mainText
+{
+    height: 30%;
+    display: flex;
     align-items: center;
 }

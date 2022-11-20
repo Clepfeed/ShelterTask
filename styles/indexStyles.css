@@ -69,8 +69,7 @@ article
 {
     background-image: url(../images/start-screen-puppy.png);
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: 88vh 19vh;
+    background-position: 55vh 6vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -106,4 +105,20 @@ article button
     border-radius: 30px;
     border: none;
     font-size: calc(0.6rem + 1vh);
+}
+
+main
+{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainText
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

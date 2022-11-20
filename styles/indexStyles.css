@@ -30,7 +30,7 @@ header h1
 {
     font-size: calc(0.4rem + 2.9vh);
     margin: 0;
-    color: gold;
+    color: #c6a892;
 }
 header h2
 {
@@ -69,7 +69,7 @@ article
 {
     background-image: url(../images/start-screen-puppy.png);
     background-repeat: no-repeat;
-    background-position: 55vh 6vh;
+    background-position: 57vh 7vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,7 +107,7 @@ article button
     font-size: calc(0.6rem + 1vh);
 }
 
-main
+.first-main
 {
     height: 62.5vh;
     width: 66%;
@@ -117,7 +117,6 @@ main
     align-items: center;
     padding-bottom: 1.5vh;
 }
-
 .mainText
 {
     display: flex;
@@ -128,14 +127,12 @@ main
     height: 42vh;
     padding-top: 1vh;
 }
-
 .mainText h3
 {
     font-size: calc(1rem + 2vh);
     width: 80%;
     margin: 0;
 }
-
 .mainText p
 {
     font-size: calc(0.4rem + 1vh);
@@ -145,10 +142,34 @@ main
     display: flex;
     align-items: flex-start;
 }
-
 .mainText .first-p-mainText
 {
     height: 30%;
     display: flex;
     align-items: center;
+}
+
+
+.second-main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f6f6f6;
+    height: 94vh;
+}
+.images
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.images div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
